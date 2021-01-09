@@ -1,0 +1,115 @@
+body
+{
+    padding:0px;
+    margin:0px;
+    background-image: url("https://images.hdqwalls.com/wallpapers/horizon-zero-dawn-game-nature-9p.jpg");
+    font-family: 'Press Start 2P', cursive;
+     transition :all 0.5s ease;
+  
+}
+
+
+
+#paddle1
+{
+    top:1px;
+    width:220px;
+    height:20px;
+   
+    border-radius: 20%;
+    left:600px;
+    position:absolute;
+    background-color:white;
+
+}
+
+#paddle2
+{ 
+    left:600px;
+    width:220px;
+    height:20px;
+    background-color:white;
+    border-radius: 20%;
+    position: absolute;
+    top:97vh;
+    
+    
+
+   
+}
+
+ #ball
+    {
+        position:absolute;
+         left:700px;
+         top:770px;
+         width:25px;
+         height:25px;
+         background-color:white;
+         border-radius: 50%;
+         
+       
+    
+
+
+
+
+    }
+
+ #scorebox
+{
+width:100px;
+height:100px;
+margin-top:0px;
+display: none;
+
+
+
+}
+#form
+{
+    display:flex;
+    flex-direction: column;
+    padding:5px;
+align-items: center;
+margin-top:18%;
+font-size:25px;
+}
+
+button
+{
+
+    width:120px;
+    height:40px;
+    padding:5px;
+    border-radius:2px;
+    box-shadow: 2px #888888;
+    outline:none;
+    font-size:20px;
+
+
+}
+input
+{
+
+    margin-bottom:30px;
+    width:230px;
+    outline:none;
+
+}
+h1{
+    font-size:80px;
+}
+
+h2
+
+{
+    font-size:30px;
+}
+
+
+
+
+
+
+}
